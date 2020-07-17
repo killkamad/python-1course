@@ -60,7 +60,7 @@ def stepen(n,step):
     for i in range(n):
         c=i**step
         l.append(c)
-    print("5) Возведение в степерь - ",l)
+    print("5) Возведение в степень - ",l)
 stepen(25,2)
 
 def martix(k):
@@ -72,7 +72,6 @@ def martix(k):
             r=random.randint(0,1)
             n.append(r)
         m.append(n)
-    print(m)
     for i in range(k):
         print()
         for j in range(k):

@@ -15,9 +15,7 @@ def bank():
         p=s/((1+i)**n)
         print(round(p,2))
 
-bank()
-
-while True:
+while True:  #Бесконечный цикл пока пользователь не выберет вариант - нет
     restart=input('Введите да, чтобы продолжить или нет, чтобы закончить - ')
     if restart=='да':
         bank()
